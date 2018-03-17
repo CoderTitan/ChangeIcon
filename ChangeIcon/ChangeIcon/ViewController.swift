@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    fileprivate var titleArr = ["弹框提示更换icon", "无弹框提示更换icon", "网络下载APP图标更换"]
+    fileprivate var titleArr = ["弹框提示更换icon", "无弹框提示更换icon", "多尺寸图标更换"]
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,7 +35,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vcs = [AlertChangeViewController(), NoAlertChangeViewController(), DownloadViewController()]
+        let vcs = [AlertChangeViewController(), NoAlertChangeViewController(), MoreSizeViewController()]
         let vc = vcs[indexPath.row]
         vc.title = titleArr[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)

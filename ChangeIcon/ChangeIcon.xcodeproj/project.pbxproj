@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77673AB9205BC88200C524EE /* MoreSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77673AB7205BC88200C524EE /* MoreSizeViewController.swift */; };
+		77673ABA205BC88200C524EE /* MoreSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77673AB8205BC88200C524EE /* MoreSizeViewController.xib */; };
+		77673AC2205BCD8700C524EE /* Sunday29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77673ABC205BCD8700C524EE /* Sunday29x29@2x.png */; };
+		77673AC3205BCD8700C524EE /* Sunday29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77673ABD205BCD8700C524EE /* Sunday29x29@3x.png */; };
+		77673AC4205BCD8700C524EE /* Sunday40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77673ABE205BCD8700C524EE /* Sunday40x40@2x.png */; };
+		77673AC5205BCD8700C524EE /* Sunday40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77673ABF205BCD8700C524EE /* Sunday40x40@3x.png */; };
+		77673AC6205BCD8700C524EE /* Sunday60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77673AC0205BCD8700C524EE /* Sunday60x60@2x.png */; };
+		77673AC7205BCD8700C524EE /* Sunday60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77673AC1205BCD8700C524EE /* Sunday60x60@3x.png */; };
 		776A11EC20594931008FA263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A11EB20594931008FA263 /* AppDelegate.swift */; };
 		776A11EE20594931008FA263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A11ED20594931008FA263 /* ViewController.swift */; };
 		776A11F120594931008FA263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776A11EF20594931008FA263 /* Main.storyboard */; };
@@ -28,11 +36,17 @@
 		778B4138205A12AB00992EA4 /* 默认icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 778B4136205A12AB00992EA4 /* 默认icon@2x.png */; };
 		778B4139205A12AB00992EA4 /* 默认icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 778B4137205A12AB00992EA4 /* 默认icon@3x.png */; };
 		778B413B205A619700992EA4 /* Extension-Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B413A205A619700992EA4 /* Extension-Dispatch.swift */; };
-		778B413F205A68B700992EA4 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B413D205A68B700992EA4 /* DownloadViewController.swift */; };
-		778B4140205A68B700992EA4 /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778B413E205A68B700992EA4 /* DownloadViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77673AB7205BC88200C524EE /* MoreSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSizeViewController.swift; sourceTree = "<group>"; };
+		77673AB8205BC88200C524EE /* MoreSizeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreSizeViewController.xib; sourceTree = "<group>"; };
+		77673ABC205BCD8700C524EE /* Sunday29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunday29x29@2x.png"; sourceTree = "<group>"; };
+		77673ABD205BCD8700C524EE /* Sunday29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunday29x29@3x.png"; sourceTree = "<group>"; };
+		77673ABE205BCD8700C524EE /* Sunday40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunday40x40@2x.png"; sourceTree = "<group>"; };
+		77673ABF205BCD8700C524EE /* Sunday40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunday40x40@3x.png"; sourceTree = "<group>"; };
+		77673AC0205BCD8700C524EE /* Sunday60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunday60x60@2x.png"; sourceTree = "<group>"; };
+		77673AC1205BCD8700C524EE /* Sunday60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunday60x60@3x.png"; sourceTree = "<group>"; };
 		776A11E820594931008FA263 /* ChangeIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776A11EB20594931008FA263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		776A11ED20594931008FA263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +70,6 @@
 		778B4136205A12AB00992EA4 /* 默认icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认icon@2x.png"; sourceTree = "<group>"; };
 		778B4137205A12AB00992EA4 /* 默认icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认icon@3x.png"; sourceTree = "<group>"; };
 		778B413A205A619700992EA4 /* Extension-Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-Dispatch.swift"; sourceTree = "<group>"; };
-		778B413D205A68B700992EA4 /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
-		778B413E205A68B700992EA4 /* DownloadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77673ABB205BCD8700C524EE /* Sunday */ = {
+			isa = PBXGroup;
+			children = (
+				77673ABC205BCD8700C524EE /* Sunday29x29@2x.png */,
+				77673ABD205BCD8700C524EE /* Sunday29x29@3x.png */,
+				77673ABE205BCD8700C524EE /* Sunday40x40@2x.png */,
+				77673ABF205BCD8700C524EE /* Sunday40x40@3x.png */,
+				77673AC0205BCD8700C524EE /* Sunday60x60@2x.png */,
+				77673AC1205BCD8700C524EE /* Sunday60x60@3x.png */,
+			);
+			path = Sunday;
+			sourceTree = "<group>";
+		};
 		776A11DF20594931008FA263 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +152,7 @@
 		778B4125205A115800992EA4 /* APPIcon */ = {
 			isa = PBXGroup;
 			children = (
+				77673ABB205BCD8700C524EE /* Sunday */,
 				778B4126205A115800992EA4 /* 天天特价@2x.png */,
 				778B4127205A115800992EA4 /* 天天特价@3x.png */,
 				778B412E205A116900992EA4 /* 小房子@2x.png */,
@@ -144,8 +170,8 @@
 		778B413C205A68B700992EA4 /* icon尺寸图 */ = {
 			isa = PBXGroup;
 			children = (
-				778B413D205A68B700992EA4 /* DownloadViewController.swift */,
-				778B413E205A68B700992EA4 /* DownloadViewController.xib */,
+				77673AB7205BC88200C524EE /* MoreSizeViewController.swift */,
+				77673AB8205BC88200C524EE /* MoreSizeViewController.xib */,
 			);
 			path = "icon尺寸图";
 			sourceTree = "<group>";
@@ -211,19 +237,25 @@
 			files = (
 				778B4139205A12AB00992EA4 /* 默认icon@3x.png in Resources */,
 				778B4134205A116900992EA4 /* 小房子@2x.png in Resources */,
-				778B4140205A68B700992EA4 /* DownloadViewController.xib in Resources */,
 				778B4138205A12AB00992EA4 /* 默认icon@2x.png in Resources */,
 				778B4132205A116900992EA4 /* 小猫@2x.png in Resources */,
+				77673AC5205BCD8700C524EE /* Sunday40x40@3x.png in Resources */,
 				778B4135205A116900992EA4 /* 小房子@3x.png in Resources */,
 				778B4133205A116900992EA4 /* 小猫@3x.png in Resources */,
+				77673AC4205BCD8700C524EE /* Sunday40x40@2x.png in Resources */,
 				778B4128205A115800992EA4 /* 天天特价@2x.png in Resources */,
 				776A11F920594931008FA263 /* LaunchScreen.storyboard in Resources */,
+				77673AC6205BCD8700C524EE /* Sunday60x60@2x.png in Resources */,
+				77673ABA205BC88200C524EE /* MoreSizeViewController.xib in Resources */,
 				776A11F620594931008FA263 /* Assets.xcassets in Resources */,
+				77673AC2205BCD8700C524EE /* Sunday29x29@2x.png in Resources */,
 				778B4129205A115800992EA4 /* 天天特价@3x.png in Resources */,
 				776A11F120594931008FA263 /* Main.storyboard in Resources */,
+				77673AC7205BCD8700C524EE /* Sunday60x60@3x.png in Resources */,
 				778B4130205A116900992EA4 /* 邮件信息@2x.png in Resources */,
 				778B4131205A116900992EA4 /* 邮件信息@3x.png in Resources */,
 				776A120A20594CE0008FA263 /* NoAlertChangeViewController.xib in Resources */,
+				77673AC3205BCD8700C524EE /* Sunday29x29@3x.png in Resources */,
 				776A120620594CD3008FA263 /* AlertChangeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,8 +269,8 @@
 			files = (
 				776A11EE20594931008FA263 /* ViewController.swift in Sources */,
 				776A11EC20594931008FA263 /* AppDelegate.swift in Sources */,
+				77673AB9205BC88200C524EE /* MoreSizeViewController.swift in Sources */,
 				778B413B205A619700992EA4 /* Extension-Dispatch.swift in Sources */,
-				778B413F205A68B700992EA4 /* DownloadViewController.swift in Sources */,
 				776A11F420594931008FA263 /* ChangeIcon.xcdatamodeld in Sources */,
 				776A120920594CE0008FA263 /* NoAlertChangeViewController.swift in Sources */,
 				776A120520594CD3008FA263 /* AlertChangeViewController.swift in Sources */,
@@ -379,8 +411,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HG8J7L5X5;
 				INFOPLIST_FILE = ChangeIcon/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quanjunt.www.ChangeIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,8 +427,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HG8J7L5X5;
 				INFOPLIST_FILE = ChangeIcon/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quanjunt.www.ChangeIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";

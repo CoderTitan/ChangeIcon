@@ -13,6 +13,17 @@
 		</dict>
 		<key>CFBundleAlternateIcons</key>
 		<dict>
+			<key>Sunday</key>
+			<dict>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Sunday60x60</string>
+					<string>Sunday40x40</string>
+					<string>Sunday29x29</string>
+				</array>
+			</dict>
 			<key>天天特价</key>
 			<dict>
 				<key>CFBundleIconFiles</key>
